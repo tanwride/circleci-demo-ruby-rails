@@ -6,7 +6,7 @@ orbs:
 
 jobs:
   build:
-    docker
+    docker:
       - image: cimg/ruby:2.7-node
     steps:
       - checkout
